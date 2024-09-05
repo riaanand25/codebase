@@ -10,6 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="codebase.css">
+<link rel="stylesheet" href="media.css">
 </head>
 <body> 
     <div class="header">
@@ -41,56 +42,95 @@
        <div class="top">
             <h1>Many companies trust Codebase to hire developers every day</h1>
             <div class="imagebox">
-                <img src="https://www.codebase.com/wp-content/uploads/2024/07/dree-1-1.png" alt="">
+                <div class="one">
+                    <img src="https://www.codebase.com/wp-content/uploads/2024/07/dree-1-1.png" alt="">
+                </div>
+               <div class="two">
                 <img src="https://www.codebase.com/wp-content/uploads/2024/07/coinless-87-blue-1-1.png" alt="">
-                <img src="https://www.codebase.com/wp-content/uploads/2024/07/Redlist-1.png" alt="">
-                <img src="https://www.codebase.com/wp-content/uploads/2024/07/bluestar-1.png" alt="">
+               </div>
+                <div class="three">
+                    <img src="https://www.codebase.com/wp-content/uploads/2024/07/Redlist-1.png" alt="">
+                </div>
+                <div class="four">
+                    <img src="https://www.codebase.com/wp-content/uploads/2024/07/bluestar-1.png" alt="">
+                </div>
+               <div class="five">
                 <img src="https://www.codebase.com/wp-content/uploads/2024/07/CAL-LOGO-DARK-1.png" alt="">
+               </div>
                </div>
         </div>
        <div class="talent">
           <h1>Meet the talent</h1>
        </div> 
        <div class="parenthead">
-       <div class="person1"    data-aos="fade-up"
+       <div class="person1"
+       data-aos="fade-up"
        data-aos-offset="200"
        data-aos-delay="50"
        data-aos-duration="1000"
        data-aos-easing="ease-in-out"
        data-aos-mirror="true"
-       data-aos-once="true"
+       data-aos-once="false"
        data-aos-anchor-placement="top-center"
      >
            <img src="vishalnew.webp" alt="">
             <h1>Vishal</h1>
             <h3>Senior PHP Developer</h3>
             <p>Vishal carries 7 years of extensive experience in Bootstrap,PHP,(Laravel,CI) MySQL and AWS.</p>
+            <span>
+                <ul>
+                    <li>PHP</li>
+                    <li>Bootstrap</li>
+                </ul>
+            </span>
+            <span class="tag">
+                <ul>
+                    <li>Laravel</li>
+                    <li>MySQL</li>
+                    <li>AWS</li>
+                </ul>
+            </span>
         </div>
-          <div class="person2"    data-aos="fade-up"
-    data-aos-offset="200"
-    data-aos-delay="50"
-    data-aos-duration="1000"
-    data-aos-easing="ease-in-out"
-    data-aos-mirror="true"
-    data-aos-once="true"
-    data-aos-anchor-placement="top-center"
-  >
+          <div class="person2"
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          data-aos-anchor-placement="top-center"
+        >
+  
             <img src="tejaswi.webp" alt="">
             <h1>Tejashri</h1>
             <h3>Senior Full-Stack Developer</h3>
             <p>Tejashri has been with codebase for 2+years and comes wth 10years of total experience in HTML,CSS'ReactJS
                 ,C#,.Net and MS SQL Server.
             </p>
+            <span class="tag">
+                <ul>
+                    <li>C#</li>
+                    <li>ReactJS</li>
+                    <li>.Net</li>
+                </ul>
+            </span>
+            <span>
+                <ul>
+                    <li>MSSQL</li>
+                    <li>CSS</li>
+                </ul>
+            </span>
             </div>
-            <div class="person3"    data-aos="fade-up"
+            <div class="person3"   data-aos="fade-up"
             data-aos-offset="200"
             data-aos-delay="50"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
-            data-aos-once="true"
+            data-aos-once="false"
             data-aos-anchor-placement="top-center"
-          >>
+          > 
                 <img src="Sweeti.webp" alt="">
                 <h1>Sweeti</h1>
                 <h3>Senior Full-Stack Developer</h3>
@@ -99,6 +139,21 @@
                     ,PHP,NoteJs,MySQL,
                     PostgreSQL,MongoDB and AWS.
                 </p>
+                <span>
+                    <ul>
+                        <li>MongoDB</li>
+                        <li>Codelgnitor</li>
+                    </ul>
+                </span>
+                <span>
+                    <ul>
+                        <li>Symphony</li>
+                        <li>Mean</li>
+                    </ul>
+                </span>
+                <span >
+                    <ul><li>NodeJS</li></ul>
+                </span>
             </div>
         </div>
         <div class="background">
@@ -107,42 +162,47 @@
                 <img src="" alt="">
             </div>
             <div class="group">
-             <div class="parent1"    data-aos="fade-up"
+             <div class="parent1"
+             data-aos="fade-up"
              data-aos-offset="200"
              data-aos-delay="50"
              data-aos-duration="1000"
              data-aos-easing="ease-in-out"
              data-aos-mirror="true"
-             data-aos-once="true"
-             data-aos-anchor-placement="top-center">
+             data-aos-once="false"
+             data-aos-anchor-placement="top-center"
+           >
                 <div class="money"> 
                     <img src="https://www.codebase.com/wp-content/uploads/2024/07/money-back.png" alt="">
                 </div>
               <h1>Money Back Guaranteed</h1>
               <p>30 days money back guaranteed if you are not satisfied with the results.</p>
             </div>
-            <div class="parent2"    data-aos="flip-up"
+            <div class="parent2" 
+            data-aos="fade-up"
             data-aos-offset="200"
             data-aos-delay="50"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
-            data-aos-once="true"
-            data-aos-anchor-placement="top-center">
+            data-aos-once="false"
+            data-aos-anchor-placement="top-center"
+          >
                 <div class="money"> 
                     <img src="https://www.codebase.com/wp-content/uploads/2024/07/affortable.png" alt="">
                 </div>
                 <h1>Affordable</h1>
                 <p>With our remote talent base we get you the same productivity for half the price.</p>    
         </div>
-            <div class="parent3"    data-aos="fade-up"
+            <div class="parent3"   data-aos="fade-up"
             data-aos-offset="200"
             data-aos-delay="50"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
-            data-aos-once="true"
-            data-aos-anchor-placement="top-center">
+            data-aos-once="false"
+            data-aos-anchor-placement="top-center"
+          >
                  <div class="money">
                     <img src="https://www.codebase.com/wp-content/uploads/2024/07/fast.png" alt="">
                 </div>
@@ -183,7 +243,7 @@
                 <img src="https://www.codebase.com/wp-content/uploads/2024/07/project-managers.png" alt="">
               </div>
               <div class="codebaseh1">
-                <h1>Product Managers</h1>
+                <h1>Project Managers</h1>
                 <div class="codedescribe">
                     <span>Data and technical project managers, scrum masters with expertise in numerous PM tools, frameworks and styles.</span>
                     </div>
@@ -279,39 +339,42 @@
                     </div>
                     </div>
                 </div>
-                <div class="logosy">
-                    <div class="mainparent">
-                    <div class="codebase">
-                    <img src="https://www.codebase.com/wp-content/uploads/2024/07/codebase.png" alt="">
-                </div> 
-                <div class="listparent">
-                <div class="mylist">
-                   <a href="https://www.codebase.com/services/"> Services</a>
-            </div>
-            <div class="mylist2">
-                <a href="https://www.codebase.com/contact/"> Contact Us</a>
-            </div>
-            </div>
-                </div>
-                <div class="socialparent">
-                    <div class="social">
+               
+
+                        
+                        <div class="logosy">
+                            <div class="mainparent">
+                            <div class="codebase">
+                            <img src="https://www.codebase.com/wp-content/uploads/2024/07/codebase.png" alt="">
+                        </div> 
+                        <div class="listparent">
+                        <div class="mylist">
+                           <a href="https://www.codebase.com/services/"> Services</a>
                     </div>
-                    <div class="social2">
+                    <div class="mylist2">
+                        <a href="https://www.codebase.com/contact/"> Contact Us</a>
                     </div>
-                    <div class="icons">
-                      <ul class="iconbox">
-                        <li><i class="fa-brands fa-linkedin-in"></i></li>
-                        <li><i class="fa-brands fa-youtube"></i></li>
-                        <li><i class="fa-brands fa-instagram"></i></li>
-                        <li><i class="fa-brands fa-x-twitter"></i></li>
-                        <li><i class="fa-brands fa-facebook"></i></li>
-                      </ul>
                     </div>
-                </div>
-                </div>  
-                <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-                <script>
-                  AOS.init();
-                </script>  
-</body>
-</html>
+                        </div>
+                        <div class="socialparent">
+                            <div class="social">
+                            </div>
+                            <div class="social2">
+                            </div>
+                            <div class="icons">
+                              <ul class="iconbox">
+                                <li><i class="fa-brands fa-linkedin-in"></i></li>
+                                <li><i class="fa-brands fa-youtube"></i></li>
+                                <li><i class="fa-brands fa-instagram"></i></li>
+                                <li><i class="fa-brands fa-x-twitter"></i></li>
+                                <li><i class="fa-brands fa-facebook"></i></li>
+                              </ul>
+                            </div>
+                        </div>
+                        </div> 
+                        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+                        <script>
+                          AOS.init();
+                        </script>
+                </body>
+                </html>

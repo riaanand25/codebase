@@ -1,0 +1,394 @@
+/* @media screen and (min-width:320px) and (max-width:570px) {
+    .header 
+    {
+        flex-direction: column;
+    }
+    .parenthead
+    {
+        flex-direction: column;
+    }
+    .group
+    {
+        flex-direction: column;
+    }
+    .main
+{
+    flex-direction: column;
+}
+.listparent 
+{
+    flex-direction: column;
+}
+.codebasebox img 
+{}
+.image 
+{
+    width: unset;
+    height: unset;
+}
+.imagebox
+{
+    flex-direction: column;
+}
+.background
+{
+    height: unset;
+}
+.codeparent
+{
+    flex-direction: column;
+}
+.menus{
+    display: none;
+}
+.guearentee
+{
+    flex-direction: column;
+}
+.top2 
+{
+    height: unset;
+}
+.container
+{
+    flex-direction: column;
+}
+.linking
+{
+    flex-direction: column;
+}
+.image 
+{
+    height: unset;
+}
+.top 
+{
+    height: unset;
+}
+.commit h1 
+{
+    padding: unset;
+}
+.imagebox
+{
+    height: unset;
+    margin: unset;
+    padding: unset;
+    width: unset;
+}
+.picture 
+{
+    width: unset;
+    height: unset;
+}
+.main
+{
+    flex-direction: column-reverse;
+}
+}
+
+@media screen and (min-width:320px) and(max-width:570px) {
+    .menus ul
+    {
+       display: none;  
+    }
+    .section 
+    {
+        flex-direction: column-reverse;
+    }
+}
+/* services.css */
+/* @media screen  and (min-width:320px) and (max-width:570px) {
+   .menus ul
+   {
+    display: none;
+   } 
+   .parent 
+   {
+    flex-direction: column;
+   }
+   .box 
+   {
+    width: unset;
+    height: unset;
+   }
+   .box2 
+   {
+    width: unset;
+    height: unset;
+   }
+    .box3 
+   {
+    width: unset;
+    height: unset;
+   }
+} */
+/* Podcast.css/ */
+/* @media screen and (min-width:320px) and (max-width:570px) {
+    .parentsection 
+    {
+        flex-direction: column;
+    }
+    .section
+    {
+        height: unset;
+    }
+    .podcastparent 
+    {
+        flex-direction: column;
+    }
+    .mainbox 
+    {
+        flex-direction: column;
+    }
+} */
+
+
+/* @media screen and (min-width:570px) and (max-width:720px)
+{
+    .header 
+    {
+        flex-direction: column;
+    }
+    .parenthead
+    {
+        flex-direction: column;
+    }
+    .group
+    {
+        flex-direction: column;
+    }
+    .main
+{
+    flex-direction: column;
+}
+.listparent 
+{
+    flex-direction: column;
+}
+.codebasebox img 
+{}
+.image 
+{
+    width: unset;
+    height: unset;
+}
+.imagebox
+{
+    flex-direction: column;
+}
+.background
+{
+    height: unset;
+}
+.codeparent
+{
+    flex-direction: column;
+}
+.menus{
+    display: none;
+}
+.guearentee
+{
+    flex-direction: column;
+}
+.top2 
+{
+    height: unset;
+}
+.container
+{
+    flex-direction: column;
+}
+.linking
+{
+    flex-direction: column;
+}
+.image 
+{
+    height: unset;
+}
+.top 
+{
+    height: unset;
+}
+.commit h1 
+{
+    padding: unset;
+}
+.imagebox
+{
+    height: unset;
+    margin: unset;
+    padding: unset;
+    width: unset;
+}
+.picture 
+{
+    width: unset;
+    height: unset;
+}
+.main
+{
+    flex-direction: column-reverse;
+}
+}  */
+
+
+@media all and (max-width: 1300px){
+    .imagebox{
+        margin: 20px;
+    }
+}
+@media all and (max-width: 1235px){
+    .image{
+        width: unset;
+        height: unset;
+    }
+    .imagebox img 
+    {
+        margin: 0;
+    }
+    .img 
+    {
+        margin: 10px;
+    }
+    .imagebox
+    {
+        margin: 0;
+        
+    }
+}
+@media all and (max-width: 1200px){
+    .imagebox{
+        margin: 20px;
+    }
+    .image{
+        width: unset;
+        height: unset;
+    }
+    .imagebox img 
+    {
+        margin: 0;
+    }
+    .img 
+    {
+        margin: 10px;
+    }
+    .imagebox
+    {
+        margin: 0;
+        
+    }
+}
+@media all and (max-width:570px){
+    .image img
+    {
+        width: unset;
+    }
+    .menus 
+    {
+        display: none;
+    }
+    .main
+    {
+        flex-direction: column-reverse;
+    }
+    .top
+    {
+        height: unset;
+    }
+    .imagebox
+    {
+        flex-direction: column;
+        height: unset;
+        padding: 10px;
+    }
+    .parenthead 
+    {
+        flex-direction: column;
+    }
+    .commit 
+    {
+        height: unset;
+    }
+    .group 
+    {
+        flex-direction: column;
+    }
+}
+    
+
+
+
+/* services */
+@media all and (max-width:1400px)
+{
+    .menus 
+    {
+        display: none;
+    }
+}
+@media all and (max-width:1300px)
+{
+    .menus 
+    {
+        display: none;
+    }
+}
+@media all and (max-width:1200px)
+{
+    .menus 
+    {
+        display: none;
+    }
+    .parent
+    {
+        align-items: center;
+    }
+}
+@media all and (max-width:1100px)
+{
+    .menus 
+    {
+        display: none;
+    }
+    .parent
+    {
+        align-items: center;
+    }
+}
+@media all and (max-width:1000px)
+{
+    .menus 
+    {
+        display: none;
+    }
+    .parent
+    {
+        align-items: center;
+    }
+}
+
+
+/* Podcast */
+@media all and (max-width:1400px)
+{
+    .menus 
+    {
+        display: none;
+    }
+}
+@media all and (max-width:1300px)
+{
+    .menus 
+    {
+        display: none;
+    }
+}@media all and (max-width:1200px)
+{
+    .menus 
+    {
+        display: none;
+    }
+}
